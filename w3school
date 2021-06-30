@@ -237,4 +237,92 @@ fruits.remove("banana")
 fruits = {"apple", "banana", "cherry"}
 fruits.discard("banana")
 
+#tut uzhe dictionaries
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(car.get("model")
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car['year'] = 2020
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car["color"] = "red"
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.pop("model")
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.clear()
+
+
+a = 50
+b = 10
+if a > b:
+    print("Hello World")
+    
+    
+a = 50
+b = 10
+if a != b:
+    print("Hello World")
+    
+    
+a = 50
+b = 10
+if a == b:
+    print('Yes')
+else:
+    print('No')
+    
+    
+a = 50
+b = 10
+if a == b:
+    print('1')
+elif a > b:
+    print('2')
+else:
+    print('3')
+    
+    
+if a == b and b == c:
+    print('Hello')
+    
+    
+if a == b or c == d:
+    print('Hello')
+    
+    
+if 5 > 2:
+    print("Five is greater than two!")
+    
+    
+if 5 > 2: print("Five is greater than two!")
+
+
+print("Yes") if 5 > 2 else print("No")
+
 
